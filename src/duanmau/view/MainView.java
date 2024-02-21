@@ -42,7 +42,7 @@ public class MainView extends javax.swing.JFrame {
      */
     
     private void loadTableChatLieu() {
-        chatLieuList = this.chatLieuService.getAllChatLieu("chat_lieu");
+        chatLieuList = this.chatLieuService.getAllChatLieu();
         int stt = 1;
         defaultTableModel = new DefaultTableModel();
         defaultTableModel.addColumn("STT");
@@ -60,7 +60,7 @@ public class MainView extends javax.swing.JFrame {
     }
     
     private void loadTableLoaiSanPham(){
-        loaiSanPhamList =  this.chatLieuService.getAllChatLieu("loai_san_pham");
+//        loaiSanPhamList =  this.chatLieuService.getAllChatLieu();
     }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents

@@ -28,8 +28,8 @@ public class ChatLieuServiceImpl implements ChatLieuService{
     }
 
     @Override
-    public List<ChatLieu> getAllChatLieu(String tableName) {
-        return this.chatLieuRepository.getAll(tableName);
+    public List<ChatLieu> getAllChatLieu() {
+        return this.chatLieuRepository.getAll();
     }
 
     @Override

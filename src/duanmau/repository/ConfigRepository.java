@@ -22,15 +22,15 @@ public class ConfigRepository {
     
     Random rd = new Random();
     Integer ranDomNewId = rd.nextInt(0, 10000000);
-    Integer randomNewMa = rd.nextInt(0, 1000);
-    String maNew = "CL" + randomNewMa;
+    Integer randomNewMa = rd.nextInt(0, 10000);
+    String maNew = "ASSW" + randomNewMa;
     
-    public List<ChatLieu> getAll(String tableName){
+    public List<ChatLieu> getAll(){
         List<ChatLieu> chatLieuList = new ArrayList<>();
         Connection connection = DBConfig.getConnection();
         if (connection != null) {
             try {
-                String query = "SELECT * FROM " + tableName;
+                String query = "SELECT * FROM chat_lieu";
                 PreparedStatement preparedStatement = connection.prepareStatement(query);
                 ResultSet resultSet = preparedStatement.executeQuery();
                 
@@ -56,7 +56,7 @@ public class ConfigRepository {
     }
     
     public void add(String ten, String tableName) {
-        Connection connection = DBConfig.getConnection();
+        Connection connection = DBConfig.getConnection();       
         if (connection != null) {
             try {
                 String query = "INSERT INTO " + tableName + " (ma, ten, trang_thai, ngay_tao, ngay_cap_nhat) VALUES (?, ?, ?, ?, ?)";
