@@ -5,7 +5,7 @@
 package duanmau.service.serviceImpl;
 
 import duanmau.entity.ChatLieu;
-import duanmau.repository.ChatLieuRepository;
+import duanmau.repository.ConfigRepository;
 import duanmau.service.ChatLieuService;
 import java.util.List;
 
@@ -16,20 +16,35 @@ import java.util.List;
 
 public class ChatLieuServiceImpl implements ChatLieuService{
     
-    private final ChatLieuRepository chatLieuRepository;
+    private final ConfigRepository chatLieuRepository;
 
     public ChatLieuServiceImpl() {
-        this.chatLieuRepository = new ChatLieuRepository();
+        this.chatLieuRepository = new ConfigRepository();
     }
     
     @Override
-    public void addChatLieu(ChatLieu chatLieu) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void addChatLieu(String tableName, String ten) {
+        this.chatLieuRepository.add(ten, tableName);
     }
 
     @Override
-    public List<ChatLieu> getAllChatLieu() {
-        return this.chatLieuRepository.getAll();
+    public List<ChatLieu> getAllChatLieu(String tableName) {
+        return this.chatLieuRepository.getAll(tableName);
+    }
+
+    @Override
+    public void update(String tableName, Integer id, String ten) {
+        this.chatLieuRepository.update(tableName, id, ten);
+    }
+
+    @Override
+    public void removeOrRevert(String tableName, Integer id, String trangThai) {
+        this.chatLieuRepository.removeOrRevert(tableName, id, trangThai);
+    }
+
+    @Override
+    public void delete(String tableName, Integer id) {
+        this.chatLieuRepository.delete(tableName, id);
     }
     
 }

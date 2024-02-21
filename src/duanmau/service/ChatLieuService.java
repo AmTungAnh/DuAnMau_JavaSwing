@@ -13,7 +13,13 @@ import java.util.List;
  */
 public interface ChatLieuService {
     
-    public List<ChatLieu> getAllChatLieu();
+    public List<ChatLieu> getAllChatLieu(String tableName);
     
-    public void addChatLieu(ChatLieu chatLieu);
+    public void addChatLieu(String tableName, String ten);
+    
+    public void update(String tableName, Integer id, String ten);
+    
+    public void removeOrRevert(String tableName, Integer id, String trangThai);
+    
+    public void delete(String tableName, Integer id);
 }
