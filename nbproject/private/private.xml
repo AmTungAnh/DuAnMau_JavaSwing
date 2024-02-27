@@ -2,6 +2,32 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/HoaDon.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/service/serviceImpl/ChatLieuServiceImpl.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/ChiTietSanPham.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/HoaDonChiTiet.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/repository/LoaiSanPhamRepository.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/service/MauSacService.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/DongSanPham.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/service/serviceImpl/LoaiSanPhamServiceImpl.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/SanPham.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/ChatLieu.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/ThuongHieu.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/LoaiSanPham.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/service/ChatLieuService.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/repository/MauSacRepository.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/service/serviceImpl/MauSacServiceImpl.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/NhaSanXuat.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/LichSuHoaDon.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/KichThuoc.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/service/LoaiSanPhamService.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/view/MainView.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/repository/NhaSanXuatRepositoty.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/MauSac.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/entity/GioHang.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/repository/ConfigRepository.java</file>
+            <file>file:/C:/Users/tunga/OneDrive/Documents/NetBeansProjects/DuAnMau/src/duanmau/repository/DBConfig.java</file>
+        </group>
     </open-files>
 </project-private>

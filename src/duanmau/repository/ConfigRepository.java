@@ -21,7 +21,6 @@ import java.util.Random;
 public class ConfigRepository {
     
     Random rd = new Random();
-    Integer ranDomNewId = rd.nextInt(0, 10000000);
     Integer randomNewMa = rd.nextInt(0, 10000);
     String maNew = "ASSW" + randomNewMa;
     
